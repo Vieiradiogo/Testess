@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="services/mockService.js"></script>
+    <link rel="preload" as="image" href="assets/castelo_homepage.webp">
+
+</head>
+<body data-page="index">
+    <header>
+        <div class="container">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="./assets/SantiGo.png" alt="Caminhos de Santiago" class="logo-img">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Início</a></li> 
+                    <li><a href="routes.html">Caminhos</a></li>
+                    <li><a href="lodging.html">Alojamentos</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="comm.html">Comunidade</a></li>
+                    <li><a href="login.html" class="auth-link"><i class="fas fa-user"></i> Entrar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Descobre os Caminhos de Santiago</h2>
+                <p>Encontra a rota perfeita e planeia a tua peregrinação connosco</p>
+                <a href="routes.html" class="btn-primary">Explorar Trajetos</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="feature-card">
+                    <i class="fas fa-route"></i>
+                    <h3>Rotas Diversas</h3>
+                    <p>Desde o Caminho Francês até à Variante Espiritual</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bed"></i>
+                    <h3>Alojamentos</h3>
+                    <p>Albergues, hotéis e residenciais no caminho</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Comunidade</h3>
+                    <p>Confere as experiências de outros utilizdores</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="popular-routes">
+            <div class="container">
+                <h2>Rotas Populares</h2>
+                <div class="route-grid">
+                    <div class="route-card">
+                        <div class="route-image" id="frances"></div>
+                        <h3>Caminho Português da Costa</h3>
+                        <p>Este caminho percorre a costa norte de Portugal e da Galiza.</p>
+                        <a href="routes.html" class="btn-secondary">Ver mais caminhos</a>
+                    </div>
+                    <div class="route-card">
+                        <div class="route-image" id="portugues"></div>
+                        <h3>Caminho de Finisterra</h3>
+                        <p>Extensão do Caminho até à 'fim da terra', passando por paisagens naturais da Galiza.</p>
+                        <a href="routes.html" class="btn-secondary">Ver mais caminhos</a>
+                    </div>
+                    <div class="route-card">
+                        <div class="route-image" id="norte"></div>
+                        <h3>Caminho Variante por Tui</h3>
+                        <p>Este caminho inicia em Tui, na fronteira com Portugal e atravessa várias cidades históricas.</p>
+                        <a href="routes.html" class="btn-secondary">Ver mais caminhos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>Sobre Nós</h3>
+                <p>Ajudamos peregrinos a planear a sua jornada desde 2023.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Blog do Peregrino</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Caminhos de Santiago. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script type="module" src="js/init.js"></script>
+</body>
+</html>

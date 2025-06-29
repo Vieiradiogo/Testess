@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Caminhos de Santiago | Alojamentos</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/lodging.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body data-page="lodging">
+
+  <header>
+    <div class="container">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="./assets/SantiGo.png" alt="Caminhos de Santiago" class="logo-img" />
+        </a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="routes.html">Caminhos</a></li>
+          <li><a href="lodging.html" class="active">Alojamentos</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="comm.html">Comunidade</a></li>
+          <li><a href="login.html" class="auth-link"><i class="fas fa-user"></i> Entrar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="lodging-hero">
+      <div class="container">
+        <h2>Alojamentos para Peregrinos</h2>
+        <p>Encontra o local ideal para descansar durante o teu caminho.</p>
+      </div>
+    </section>
+
+    <section class="lodging-filter">
+      <div class="container">
+        <div class="filter-card">
+          <h3>Filtrar Alojamentos</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="search-localizacao">Localização:</label>
+              <input type="text" id="search-localizacao" placeholder="Ex: Porto, Valença..." />
+            </div>
+            <div class="form-group">
+              <label for="tipo-alojamento">Tipo:</label>
+              <select id="tipo-alojamento">
+                <option value="">Todos</option>
+                <option value="Albergue">Albergue</option>
+                <option value="Guesthouse">Guesthouse</option>
+                <option value="Hotel">Hotel</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lodging-results">
+      <div class="container">
+        <div id="lodging-list" class="lodging-list lodging-grid">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Caminhos de Santiago. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/views/public/lodgingView.js"></script>
+  <script type="module" src="./js/init.js"></script>
+
+</body>
+</html>
