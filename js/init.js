@@ -109,3 +109,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const app = new AppInitializer();
   app.initialize();
 });
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js")
+    .then(() => console.log("Service Worker registado"))
+    .catch((error) => console.log("Erro ao registar SW:", error));
+}
