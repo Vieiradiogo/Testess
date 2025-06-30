@@ -3,7 +3,7 @@ export const peregrinos = [
     id: 1,
     nome: "João Silva",
     email: "joao.silva@mail.com",
-    password: "123456",
+    password: "qpalskzmg",
     avatarUrl: "./assets/avatars/image1.png",
     pontos: 350,
     nivel: 3,

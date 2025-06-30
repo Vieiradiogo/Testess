@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Vieiradiogo/Testess#readme",
   "devDependencies": {
-    "jest": "^29.0.0"
+    "jest": "^29.7.0"
   }
 }
