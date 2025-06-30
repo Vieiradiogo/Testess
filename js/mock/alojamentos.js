@@ -151,4 +151,7 @@ const alojamentos = [
   }
 ];
 
-module.exports = { alojamentos };
+export { alojamentos };
+//module.exports = { calcularPontuacao, calcularNivel };
+
+

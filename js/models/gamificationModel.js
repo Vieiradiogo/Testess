@@ -1,3 +1,4 @@
+
 /**
  * Calcula a pontuação final de um quiz.
  * @param {number} base - Número de respostas certas
@@ -16,4 +17,5 @@ function calcularNivel(pontos) {
   return 1;
 }
 
-module.exports = { calcularPontuacao, calcularNivel };
+export { calcularPontuacao, calcularNivel };
+//module.exports = { calcularPontuacao, calcularNivel };
