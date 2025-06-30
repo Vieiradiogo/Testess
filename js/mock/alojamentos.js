@@ -1,4 +1,4 @@
-export const alojamentos = [
+const alojamentos = [
   {
     id: 1,
     nome: "Albergue do Caminho",
@@ -150,3 +150,5 @@ export const alojamentos = [
     }
   }
 ];
+
+module.exports = { alojamentos };

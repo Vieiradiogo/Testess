@@ -8,6 +8,7 @@ function filterByLocation(lista, local) {
 module.exports = { filterByLocation };
 
 
+
 describe("Função filterByLocation", () => {
   const alojamentosMock = [
     { nome: "Albergue do Caminho", localizacao: "Porto", tipo: "Albergue" },
