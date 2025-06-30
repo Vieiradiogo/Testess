@@ -1,0 +1,24 @@
+{
+  "name": "testess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vieiradiogo/Testess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vieiradiogo/Testess/issues"
+  },
+  "homepage": "https://github.com/Vieiradiogo/Testess#readme",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
