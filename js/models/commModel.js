@@ -23,7 +23,7 @@ export function getRecentComments(limit = 10) {
         texto: c.texto,
         data: c.data,
         utilizador: user.nome,
-        avatar: user.avatarUrl || 'img/avatar-default.png'
+        avatar: user.avatarUrl || 'img/avatar-default.webp'
       });
     });
   });

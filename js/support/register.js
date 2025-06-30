@@ -14,7 +14,7 @@ document.getElementById("registerForm").addEventListener("submit", function (e) 
     nome,
     email,
     password,
-    avatarUrl: "assets/avatars/avatardefault.png",
+    avatarUrl: "assets/avatars/avatardefault.webp",
 
     pontos: 0,
     nivel: 1,

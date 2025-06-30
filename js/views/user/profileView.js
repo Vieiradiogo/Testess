@@ -13,7 +13,7 @@ export function getLevelName(nivel) {
 
 export function renderUserData(user) {
   // Elementos DOM
-  document.getElementById('user-avatar').src = user.avatarUrl || 'img/avatar-default.png';
+  document.getElementById('user-avatar').src = user.avatarUrl || 'img/avatar-default.webp';
   document.getElementById('user-name').textContent = user.nome;
   document.getElementById('user-email').textContent = user.email;
   document.getElementById('register-date').innerHTML = `<i class="far fa-calendar-alt"></i> Registado desde ${formatDate(user.dataRegisto)}`;

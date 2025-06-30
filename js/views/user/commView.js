@@ -26,7 +26,7 @@ function renderLeaderboard() {
     row.classList.add('leaderboard-row');
     row.innerHTML = `
       <span class="user">
-        <img src="${user.avatarUrl || 'img/avatar-default.png'}" alt="${user.nome}" class="avatar-mini">
+        <img src="${user.avatarUrl || 'img/avatar-default.webp'}" alt="${user.nome}" class="avatar-mini">
         ${user.nome}
       </span>
       <span>${user.nivel}</span>

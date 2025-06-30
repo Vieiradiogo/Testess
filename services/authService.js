@@ -60,7 +60,7 @@ class AuthService {
     const newUser = {
       ...userData,
       id: this.users.length + 1,
-      avatarUrl: 'img/avatar-default.png', 
+      avatarUrl: 'img/avatar-default.webp', 
       pontos: 0,
       nivel: 1,
       caminhosPercorridos: [],

@@ -7,7 +7,7 @@ export function renderNavbarUser() {
   const authLink = document.querySelector(".auth-link");
 
   if (authLink) {
-    const avatar = user.avatarUrl || user.avatar || "./assets/avatar-default.png";
+    const avatar = user.avatarUrl || user.avatar || "./assets/avatar-default.webp";
     const nome = user.nome || "Utilizador";
 
     authLink.innerHTML = `

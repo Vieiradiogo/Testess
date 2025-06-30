@@ -16,7 +16,7 @@ class MockService {
           nome: p.nome,
           email: p.email,
           password: p.password,
-          avatarUrl: p.avatarUrl || "./assets/avatar-default.png",
+          avatarUrl: p.avatarUrl || "./assets/avatar-default.webp",
           pontos: p.pontos || 0,
           nivel: p.nivel || 0,
           caminhosPercorridos: p.caminhosPercorridos || [],
